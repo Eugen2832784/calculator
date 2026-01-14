@@ -38,5 +38,3 @@ function operate(firstNumber, secondNumber, operation) {
       break;
   }
 }
-
-operate(23, 30, "+");
