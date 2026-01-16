@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.mainContainer{
+    width:400px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color:rgba(149, 140, 140, 0.765);
+}
+
+.windowContainer{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left:25px;
+
+    background-color:#fafaee;
+}
+
+#clear, #delete{
+    width:165px;
+    height:60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fafaee;
+    font-size: 18px;
+  font-weight: bold;
+}
+#clear{
+    margin-right: 20px;
+    background-color: indianred;
+}
+#delete{
+    background-color: rgb(95, 95, 237);
+}
+.bigButtons{
+    margin:20px 0px 10px 0px;
+    margin-left:25px;
+    display:flex;
+    justify-content: stretch;
+}
+.buttonContainer{
+    width: 400px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.smallButtons{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-left: 30px;
+    margin-top:20px;
+    
+}
+.smallButtons button {
+  width: 75px;
+  height: 60px;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  border-radius: 10px;
+  border: 1px solid black;
+
+  background-color: #fafaee;
+  margin: 5px;
+}
