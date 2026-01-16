@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Digital7";
+  src: url("fonts/Digital7-rg1mL.ttf") format("truetype");
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -13,9 +18,9 @@ body {
     background-color:rgba(149, 140, 140, 0.765);
 }
 .windowContainer{
-  width: 350px;              /* подгони под свой корпус */
-  height: 120px;             /* высота экрана */
-  background: #e9e9e9;        /* светло-серый как на примере */
+  width: 350px;
+  height: 120px; 
+  background: #e9e9e9;  
   border: 2px solid #3a3a3a;
   border-radius: 8px;
 
@@ -24,25 +29,26 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* small сверху, big снизу */
-  align-items: flex-end;          /* оба вправо */
+  justify-content: space-between;
+  align-items: flex-end; 
 }
 
-/* убираем дефолтные отступы у h1/h3 */
+
 #showSmall, #showBig{
   margin: 0;
   padding: 0;
   width: 100%;
-  text-align: right;  /* чтобы текст был справа */
+  text-align: right;
+  font-family: "Digital7", monospace;
 }
 
-/* верхняя строка (мелкая) */
+
 #showSmall{
   font-size: 18px;
   opacity: 0.8;
 }
 
-/* нижняя строка (крупная) */
+
 #showBig{
   font-size: 44px;
   font-weight: 700;
